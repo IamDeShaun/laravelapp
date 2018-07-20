@@ -67,6 +67,18 @@ return [
             'sslmode' => 'prefer',
         ],
 
+        'pgsql_production' => [
+            'driver' => 'pgsql',
+            'host' => $host,
+            'database' => $database,
+            'username' => $username,
+            'password' => $password,
+            'charset' => 'utf8',
+            'prefix' => '',
+            'schema' => 'public',
+            'sslmode' => 'prefer',
+        ],
+        
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'host' => env('DB_HOST', 'localhost'),
