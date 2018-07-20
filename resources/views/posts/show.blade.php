@@ -4,7 +4,8 @@
 <div class="container slidedown">
     <a href="/posts" class="btn btn-outline-dark slidedown">Go Back</a>
         <h1>{{$post->title}}</h1>
-        <img style="width:60%; margin:20px;" src="/storage/cover_images/{{$post->cover_image}}">
+        <!--
+        <img style="width:60%; margin:20px;" src="/storage/cover_images/{{$post->cover_image}}"> -->
         <div>
              {!!$post->body!!}
         </div>

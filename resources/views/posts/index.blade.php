@@ -8,7 +8,8 @@
                 @foreach($posts as $post)
                 
                         <div class="card bg-light mb-3">
-                            <img style="width:100%" src="/storage/cover_images/{{$post->cover_image}}">
+                            <!--
+                            <img style="width:100%" src="/storage/cover_images/{{$post->cover_image}}"> -->
                                 <h4><a href="/posts/{{$post->id}}">{{$post->title}}</a></h4>
                                 <small>Written on {{$post->created_at}} by {{$post->user->name}}</small>
                             </div>
